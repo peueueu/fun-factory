@@ -1,3 +1,4 @@
+@import "../variables_and_mixins";
 /*Button Apple*/
 .btn-apple {
   cursor: pointer;
@@ -10,7 +11,7 @@
   min-width: 28px;
   padding: 8px 16px;
   border-radius: 18px;
-  background: #0071e3;
+  background: $base-blue;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
@@ -18,9 +19,25 @@
 .btn-apple:hover {
   color: #fff;
   text-decoration: none;
-  background: #0077ed;
+  background: $base-blue-hover;
 }
 
 /*Button Twitter*/
 
 /*Button Medium*/
+
+.btn-medium {
+  color: #808080;
+  border: 1px solid #808080;
+  padding: 10px 15px;
+  font-weight: lighter;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-medium:hover {
+  text-decoration: none;
+  color: #808080;
+  opacity: 1;
+}
