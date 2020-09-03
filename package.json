@@ -1,0 +1,13 @@
+{
+  "name": "hipsy-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "peueueu",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node-sass -w ./styles/main.scss ./styles/css/main.css --output-style compressed"
+  },
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
